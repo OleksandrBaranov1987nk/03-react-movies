@@ -27,7 +27,7 @@ export default function App() {
     openModal();
   };
 
-  const handleMovie = async (query: string) => {
+  const handleSubmit = async (query: string) => {
     try {
       setMovies([]);
       setError(false);
